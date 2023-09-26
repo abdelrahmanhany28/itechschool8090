@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+   
+    <link rel="stylesheet" href="css/site.css">
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">I-Tech School </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="partnership.html">Partnership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="achivement.html">Achievement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="school_message.html">School Message</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <!-- Navbar Ends -->
+
+
+     <!-- Sign Up Modal Start -->
+     <div class="modal fade" tabindex="-1" id="sign-up-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign Up</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="sign-up-form">
+               <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+               <input type="text" name="username" class="form-control" placeholder="Username" required>
+               <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+               <input type="password" id="confirm" name="confirm" class="form-control" placeholder="Confirm Password" required>
+               <div id="passError"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              <i class="fa-solid fa-times"></i>&nbsp;
+              Close</button>
+            <button type="button" class="btn btn-primary" onclick="checkPassword()">
+              <i class="fa-solid fa-pen-to-square"></i>&nbsp;
+              Sign Up</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <!-- Sign Up Modal Ends -->
+
+    <!-- Banner Start -->
+      <div class="banner">
+          <div class="content">
+              <h2>Our Team</h2>
+          </div>
+      </div>
+    <!-- Banner Ends -->
+
+    <!-- Our Team Section Start -->
+       <div class="container">
+           <div class="main-title text-center my-5">
+               <h1>Our Team</h1>
+           </div>
+       </div>
+
+       <div class="container mb-5">
+          <div class="row">
+              <div class="col-sm-6 col-md">
+                <div class="card text-center mb-4 emp-card">
+                  <div class="card-body">
+                    <img src="images/user.png" class="user-img">
+                    <h5 class="mt-2">Employee Name</h5>
+                    <p>Job Title</p>
+                     <div class="contacts">
+                      <i class="fa-brands fa-facebook"></i>
+                        facebook.com/employeename
+                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md">
+                <div class="card text-center mb-4 emp-card">
+                  <div class="card-body">
+                    <img src="images/user.png" class="user-img">
+                    <h5 class="mt-2">Employee Name</h5>
+                    <p>Job Title</p>
+                     <div class="contacts">
+                      <i class="fa-brands fa-facebook"></i>
+                        facebook.com/employeename
+                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md">
+                <div class="card text-center mb-4 emp-card">
+                  <div class="card-body">
+                    <img src="images/user.png" class="user-img">
+                    <h5 class="mt-2">Employee Name</h5>
+                    <p>Job Title</p>
+                     <div class="contacts">
+                       <i class="fa-brands fa-facebook"></i>
+                        facebook.com/employeename
+                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md">
+                <div class="card text-center mb-4 emp-card">
+                  <div class="card-body">
+                    <img src="images/user.png" class="user-img">
+                    <h5 class="mt-2">Employee Name</h5>
+                    <p>Job Title</p>
+                     <div class="contacts">
+                      <i class="fa-brands fa-facebook"></i>
+                        facebook.com/employeename
+                     </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>   
+
+       </div>
+    <!-- Our Team Section Ends -->
+   
+
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

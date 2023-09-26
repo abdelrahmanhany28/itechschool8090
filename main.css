@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, tahoma,sans-serif;
+}
+/* Navbar Start */
+  .navbar{
+    background-color:#023e8a;
+  }
+
+  .navbar-brand , .nav-link{
+    color:#FFF;
+  }
+
+  .navbar-brand:hover  {
+     color:#FFF;
+  }
+
+  .nav-link:hover{
+    color:#000000
+
+  }
+
+  
+
+  .navbar-toggler{
+    color:white;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+/* Navbar Ends */
+
+.hero{
+    width:100%;
+    height:100vh;
+    background-image: url(../images/kkkkkk.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+

@@ -1,0 +1,158 @@
+ body{
+    font-family:Arial, Helvetica, sans-serif
+ }
+ 
+/* Navbar Start */
+.navbar{
+  background-color:#023e8a;
+}
+
+.navbar-brand , .nav-link{
+  color:#FFF;
+}
+
+.navbar-brand:hover  {
+   color:#FFF;
+}
+
+.nav-link:hover{
+  color:#000000
+
+}
+
+
+
+.navbar-toggler{
+  color:white;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+/* Navbar Ends */
+
+
+/* Banner Start */
+.banner {
+    height:17vh;
+    background-color: #4ea8de;
+    position:relative;
+}
+.banner .content{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+
+.banner .content h2{
+     color:#FFF;
+    
+}
+/* Banner Ends */
+
+/* Sign Up Form Start */
+.sign-up-form input{
+  margin-bottom: 12px;
+}
+/* Sign Up Form Ends */
+
+/* Main Title Start */
+.main-title::after{
+   content: "";
+   background-color: #1d3557;
+   width:100px;
+   height:4px;
+   position:absolute;
+   left:50%; 
+  transform:translateX(-50%)
+}
+.aboutschool{
+font-style: italic;  font-style: oblique;
+color: #000000;
+font-family: 'Times New Roman', Times, serif;
+
+}
+/* Main Title Ends */
+
+/* Our Team Start */
+ .user-img{
+    width: 90px;
+    height:90px;
+ }
+ .emp-card{
+    transition-duration: .5s;
+ }
+ .emp-card:hover{
+     cursor: pointer;
+     transform:scale(1.1); 
+     box-shadow:0 10px 10px #ddd;
+ }
+ .logoschool{
+margin-top: 100px;
+width: 500px;
+/*height: 300px;*/
+
+ }
+ 
+/* Our Team Ends */
+
+/* Contact Us Start */
+.contact-frm input , .contact-frm textarea{
+  border:none;
+  outline: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ddd;
+}
+.contact-frm input:focus , .contact-frm textarea:focus{
+  box-shadow: none;
+  border-radius: 0;
+}
+.contact-frm textarea{
+ height:100px;
+ resize: none;
+}
+
+.contact-icon{
+  
+  margin-right:15px;
+}
+/* Contact Us Ends */
+
+.carousel-item{
+  margin-bottom: 10px;
+  height:50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover
+  
+}
+.body-edit{
+      width: 460px;
+      height: 150px;
+      
+}
+.carouselExampleAutoplaying{
+    animation: duration 0.5em;;
+}
+
+.text-hor{
+    font-family: 'Times New Roman', Times, serif;
+}
+.hr{
+color: #023e8a;
+}
+
+/*.message{
+     height: 80vh;
+     width: 500px;
+     position: absolute;
+     margin-left: 290px;
+     margin-bottom: 30px;
+     padding: 16px;
+}*/
+
+.footer{
+  margin: 0%;
+  text-align: center;
+  background-color: #385783;
+}
